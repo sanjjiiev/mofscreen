@@ -6,10 +6,10 @@ Calculates four key properties from a single CIF file:
 
 | # | Property | Method | Time |
 |---|----------|--------|------|
-| 1 | Electronic bandgap | Single-point DFT | ~10–60 min |
-| 2 | Li adsorption energy | GEO_OPT (MOF + Li) | ~30–120 min |
-| 3 | Formation energy | Instant (reuses #1) | <1 sec |
-| 4 | Volume expansion | Instant (reuses #2) | <1 sec |
+| 1 | Electronic bandgap | Single-point DFT | 
+| 2 | Li adsorption energy | GEO_OPT (MOF + Li) |
+| 3 | Formation energy | Instant (reuses #1) | 
+| 4 | Volume expansion | Instant (reuses #2) | 
 
 ---
 
