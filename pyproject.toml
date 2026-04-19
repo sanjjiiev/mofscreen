@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mofscreen"
-version = "1.0.2"
+version = "1.0.3"
 description = "Automated DFT screening of MOFs for Li-ion anode material properties using CP2K"
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
-requires-python = ">=3.9"
+requires-python = "==3.12.*"
 
 authors = [
     { name = "Sanjjiiev", email = "sanjjiiev005@gmail.com" }
@@ -51,3 +51,6 @@ mofscreen = "mofscreen.cli:main"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["mofscreen*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.pyc", "*.so", "*.pyd", "*.py"]

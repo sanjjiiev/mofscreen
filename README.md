@@ -19,10 +19,10 @@ This library requires **CP2K** to be installed and accessible on your system.
 
 ```bash
 # Install CP2K via conda (recommended)
-conda create -n dft_env python=3.11
+conda create -n dft_env python=3.12
 conda activate dft_env
 conda install -c conda-forge cp2k ase numpy
-pip install mofscreen
+pip install https://github.com/sanjjiiev/mofscreen/releases/download/v1.0.0/mofscreen-1.0.0-py3-none-any.whl
 ```
 
 ---
@@ -30,6 +30,10 @@ pip install mofscreen
 ## Installation
 
 ```bash
+# Option 1: Install verified bytecode release directly from GitHub (Python 3.12 required)
+pip install https://github.com/sanjjiiev/mofscreen/releases/download/v1.0.0/mofscreen-1.0.0-py3-none-any.whl
+
+# Option 2: Install from PyPI (if Option 1 fails or for future releases)
 pip install mofscreen
 ```
 
